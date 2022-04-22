@@ -26,6 +26,7 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
+  color: hsl(0deg, 0%, 23%);
 }
 
 .container {
@@ -46,4 +47,46 @@ body {
   margin-top: 1.25rem;
   margin-bottom: 1.5625rem;
   font-size: 0.875rem;
+}
+
+.signup-form {
+  margin-top: 1.5625rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1.875rem;
+}
+.signup-form .form-group {
+  text-align: left;
+}
+.signup-form .form-group .input {
+  display: block;
+  width: 100%;
+  padding-block: 0.5rem;
+  padding-inline: 1.25rem;
+  border: 1px solid hsl(0deg, 0%, 69%);
+  border-radius: 0.625rem;
+}
+.signup-form .form-group .input ::-moz-placeholder {
+  color: hsl(0deg, 0%, 69%);
+}
+.signup-form .form-group .input :-ms-input-placeholder {
+  color: hsl(0deg, 0%, 69%);
+}
+.signup-form .form-group .input ::placeholder {
+  color: hsl(0deg, 0%, 69%);
+}
+.signup-form .btn {
+  grid-column: 1/-1;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-inline: auto;
+  padding-block: 0.5rem;
+  cursor: pointer;
+  padding-inline: 2.25rem;
+  color: hsl(0deg, 0%, 100%);
+  background-color: hsl(176deg, 61%, 19%);
+  border: none;
+  border-radius: 0.625rem;
+  box-shadow: 0px 0.25rem 1.09375rem hsla(176deg, 61%, 19%, 0.18);
 }/*# sourceMappingURL=main.css.map */
