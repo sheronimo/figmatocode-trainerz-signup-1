@@ -10,4 +10,33 @@
 input {
   font-family: inherit;
   font-size: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 0.75rem;
+  line-height: 1.5rem;
+  min-height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.container {
+  margin-inline: auto;
+  padding-inline: 1.875rem;
+  padding-block: 4.375rem;
+}
+
+.heading {
+  font-family: "Castoro", serif;
+  font-size: 4.0625rem;
+  line-height: 1;
+  color: hsl(176deg, 61%, 19%);
 }/*# sourceMappingURL=main.css.map */
